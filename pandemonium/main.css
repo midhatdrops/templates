@@ -41,26 +41,62 @@ font-family: 'Rock Salt', cursive;
 
 .fundo > .card-space-1 {
     margin-bottom: 10px;
-    height: 130px;
-}
-.fundo > .card-space-1 > .card {
-    width: 240px;
-    height: 120px;
+    height: 150px;
+    width: 80%;
     position: relative;
-    border: 1px solid white;
-    display: inline-block;
+    left: 40px;
+    border: 1px solid whitesmoke;
 }
-.fundo > .card-space-1 > .card > .nome-card {
-    width: 200px;
+
+.fundo > .card-space-1 > .div-img {
+    width: 30%;
+    height: 150px;
+    background-color: black;
     position: relative;
-    top: 45px;
-    left: 20px;
-    font-family: 'Rock Salt', cursive;
-    font-size: 20px;
-    color: #ba181b;
-    letter-spacing: 4px;
+    float: left;
+    z-index: 8;
+    left: 0px;
+    opacity: 0;
+    transition: 0.8s;
+}
+.fundo > .card-space-1 > .div-img:hover {
+    border-left: 1px solid whitesmoke;
+    transform: rotate(180deg);
+    opacity: 1;
+}
+
+.fundo > .card-space-1 > .card-name {
+    width: 70%;
+    height: 48px;
+    background-color: black;
+    position: relative;
     text-align: center;
+    right: -135px;
+    color: black;
+    opacity: 0;
+    transition: 0.8s;
 }
+.fundo > .card-space-1 > .card-name:hover {
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    opacity: 1;
+}
+
+.fundo > .card-space-1 > .card-name > .info {
+    font-family: Roboto, sans-serif;
+    width: 100%;
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+    right: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 200;
+}
+.fundo > .card-space-1 > .card-name > .info:hover {
+    color: white;
+}
+
 .fundo > .aliancas {
     width: 567px;
     height: 300px;
