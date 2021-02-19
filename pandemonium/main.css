@@ -19,7 +19,7 @@ font-family: 'Rock Salt', cursive;
 
 .fundo > .cabecalho {
     width: 567px;
-    height: 150px;
+    height: auto;
     margin-top: 20px;
     text-align: center;
     overflow: none;
@@ -83,7 +83,7 @@ font-family: 'Rock Salt', cursive;
 }
 
 .fundo > .card-space-1 > .card-name > .info {
-    font-family: Roboto, sans-serif;
+    font-family: Noto Sans JP, sans-serif;
     width: 100%;
     font-size: 20px;
     position: relative;
