@@ -29,6 +29,12 @@ font-family: 'Rock Salt', cursive;
     margin-top: 5px;
     position: relative;
     margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.fundo > .rotulo:visited {
+    color: #ba181b;
+    text-decoration: none;
 }
 
 .fundo > .cabecalho {
